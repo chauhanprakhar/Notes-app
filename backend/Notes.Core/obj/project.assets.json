@@ -1,0 +1,81 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Notes.DB/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Notes.DB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Notes.DB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Notes.DB/1.0.0": {
+      "type": "project",
+      "path": "../Notes.DB/Notes.DB.csproj",
+      "msbuildProject": "../Notes.DB/Notes.DB.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Notes.DB >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\asiel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\asiel\\Documents\\gitlab\\notes.webapi\\Notes.Core\\Notes.Core.csproj",
+      "projectName": "Notes.Core",
+      "projectPath": "C:\\Users\\asiel\\Documents\\gitlab\\notes.webapi\\Notes.Core\\Notes.Core.csproj",
+      "packagesPath": "C:\\Users\\asiel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asiel\\Documents\\gitlab\\notes.webapi\\Notes.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\asiel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\asiel\\Documents\\gitlab\\notes.webapi\\Notes.DB\\Notes.DB.csproj": {
+              "projectPath": "C:\\Users\\asiel\\Documents\\gitlab\\notes.webapi\\Notes.DB\\Notes.DB.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    }
+  }
+}
